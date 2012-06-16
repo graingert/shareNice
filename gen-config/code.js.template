@@ -56,7 +56,6 @@ function shareNiceLoad() {
             filter[a[s]] = 1;
     }
 
-    var prot = window.location.protocol;
     var label = 'Share';
     var lattr = shareNice.getAttribute( 'data-share-label' );
     if( lattr != null )
